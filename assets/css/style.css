@@ -12,7 +12,7 @@ body {
 	font-family: 'Montserrat Alternates', sans-serif;
 	overflow-x: hidden;
 }
-p, .label-nama {
+p, figcaption {
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -320,10 +320,11 @@ aside article {
 	color: #333;
 }
 aside article img {
+	width: 200px;
 	border-radius: 100%;
-	border: 4px solid #3BACB6;
+	border: 5px solid #3BACB6;
 }
-aside article .label-nama {
+aside article figcaption {
 	background-color: #3BACB6;
 	color: #fff;
 	padding: 3px;
