@@ -7,11 +7,16 @@
 	<meta name="author" content="M. Khoirul Husen">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Khomura Studio</title>
+	<!-- Favicon -->
 	<link rel="shortcut icon" href="assets/img/favicon.png">
+	<!-- My Style CSS -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- My Dark Mode CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/dark-mode.css">
 </head>
 <body>
 
+	<!-- HEADER SECTION -->
 	<header>
 		<!-- Navigation Menu -->
 		<nav>
@@ -33,6 +38,7 @@
 				<span></span>
 			</div>
 		</nav>
+		<!-- End Navigation Menu -->
 
 		<!-- Hero Image / Jumbotron -->
 		<div class="jumbotron">
@@ -47,14 +53,17 @@
 				<a href="#" onclick="alert('Fitur ini belum tersedia!')" class="btn-shop">Shop Now</a>
 			</div>
 		</div>
+		<!-- End Hero Image / Jumbotron -->
 
-		<!-- Waves -->
-		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#b3e8e5" fill-opacity="1" d="M0,256L40,250.7C80,245,160,235,240,213.3C320,192,400,160,480,165.3C560,171,640,213,720,218.7C800,224,880,192,960,165.3C1040,139,1120,117,1200,138.7C1280,160,1360,224,1400,256L1440,288L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+		<!-- SVG Waves -->
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path class="color-dark" fill="#b3e8e5" fill-opacity="1" d="M0,256L40,250.7C80,245,160,235,240,213.3C320,192,400,160,480,165.3C560,171,640,213,720,218.7C800,224,880,192,960,165.3C1040,139,1120,117,1200,138.7C1280,160,1360,224,1400,256L1440,288L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
 	</header>
+	<!-- END HEADER SECTION -->
 
+	<!-- MAIN SECTION -->
 	<main>
 		<div id="content">
-			<!-- Main Content -->
+			<!-- ARTICLE SECTION / Main Content -->
 			<article>
 				<!-- About Us -->
 				<div id="about">
@@ -64,6 +73,7 @@
 						<p>Khomura Studio dibentuk tepat pada Awal Tahun 2021 silam, bermula pada sebuah Ide sederhana dari <i>M. Khoirul Husen</i> terlintas dipikirannya ingin membangun sebuah Start-Up yang berfokus pada Industri Kreatif, dan terciptalah nama Khomura Studio.</p>
 					</div>
 				</div>
+				<!-- End About Us -->
 
 				<!-- Our Services -->
 				<div id="services">
@@ -87,6 +97,7 @@
 						</div>
 					</div>
 				</div>
+				<!-- End Our Services -->
 
 				<!-- Our Product -->
 				<div id="product">
@@ -118,9 +129,10 @@
 						</a>
 					</div>
 				</div>
+				<!-- End Our Product -->
 
 				<div id="information">
-					<!-- Contact Us -->
+					<!-- Form Contact Us -->
 					<div class="contact">
 						<h2>Contact Us</h2>
 						<form action="">
@@ -133,15 +145,16 @@
 							<button type="submit" onclick="alert('Fitur ini belum tersedia!')">Send Message</button>
 						</form>
 					</div>
+					<!-- End Form Contact Us -->
 					
-					<!-- Sidebar Information -->
+					<!-- ASIDE SECTION / Sidebar Information -->
 					<aside>
 						<h2>Info</h2>
-						<article>
+						<article class="info-founder">
 							<header>
 								<figure>
-									<img src="assets/img/profile2.png" alt="Profile Image" title="Profile Image">
-									<figcaption>M. Khoirul Husen</figcaption>
+									<img src="assets/img/profile.png" alt="Profile Image" title="Profile Image">
+									<figcaption>M. Khoirul Husen <br> <small>(Founder Khomura Studio)</small></figcaption>
 								</figure>
 							</header>
 							<section class="skills">
@@ -150,6 +163,7 @@
 									<a href="https://www.w3schools.com/html/" target="_blank">HTML</a>
 									<a href="https://www.w3schools.com/css/" target="_blank">CSS</a>
 									<a href="https://www.javascript.com/" target="_blank">Javascript</a>
+									<a href="https://www.php.net/" target="_blank">PHP</a>
 									<a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>
 								</div>
 							</section>
@@ -164,23 +178,35 @@
 							</section>
 						</article>
 					</aside>
+					<!-- END ASIDE SECTION / Sidebar Information -->
 				</div>
 			</article>
+			<!-- END ARTICLE SECTION / Main Content -->
 		</div>
 	</main>
+	<!-- END MAIN SECTION -->
 
-	<!-- Footer -->
+	<!-- FOOTER SECTION -->
 	<footer>
-		<!-- Waves -->
-		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#2f8f9d" fill-opacity="1" d="M0,160L60,176C120,192,240,224,360,234.7C480,245,600,235,720,240C840,245,960,267,1080,256C1200,245,1320,203,1380,181.3L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+		<!-- SVG Waves -->
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path class="svg-footer" fill="#2f8f9d" fill-opacity="1" d="M0,160L60,176C120,192,240,224,360,234.7C480,245,600,235,720,240C840,245,960,267,1080,256C1200,245,1320,203,1380,181.3L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+		
+		<!-- Copyright -->
 		<p>Created with <span>&#10084;</span> by <a href="https://instagram.com/hoirulhusen08" target="_blank">M. Khoirul Husen</a> | &copy; Copyright 2022 - All Right Reserved</p>
+
+		<!-- Button to Top Page -->
+		<a href="#head">
+			<div class="btn-to-top">&#9650;</div>
+		</a>
+
+		<!-- Icon Dark Mode -->
+		<span class="dark-mode" onclick="setDarkMode()">
+			<img src="assets/img/icon-dark.png" title="Mode" id="iconDark" alt="Mode">
+		</span>
 	</footer>
+	<!-- END FOOTER SECTION -->
 
-	<!-- Button to Top Page -->
-	<a href="#head">
-		<div class="btn-to-top">&#9650;</div>
-	</a>
-
+	<!-- My Script JS -->
 	<script type="text/javascript" src="assets/js/script.js"></script>
 
 </body>

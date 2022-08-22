@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Montserrat+Alternates:wght@100;200;400;600;800&family=Montserrat:wght@100;200;400;600;800&display=swap');
 
+/* General */
 * {
 	padding: 0;
 	margin: 0;
@@ -16,6 +17,10 @@ p, figcaption {
 	font-family: 'Montserrat', sans-serif;
 }
 
+svg path .svg-hero-image {
+	background-color: #b3e8e5;
+	color: #b3e8e5;
+}
 
 /* Navbar */
 nav {
@@ -216,9 +221,6 @@ article .card:hover {
 	box-shadow: 1px 2px 20px 8px rgba(47, 143, 157, .3);
 	cursor: grab;
 }
-article .card:hover h3 {
-	font-weight: bold;
-}
 article #services img {
 	width: 100px;
 }
@@ -307,6 +309,7 @@ article #services img {
 	margin: 10px 0;
 	color: #eee;
 	width: 100%;
+	transition: all .3s;
 }
 .contact button:hover {
 	background-color: #ca181e;
@@ -327,9 +330,12 @@ aside article img {
 aside article figcaption {
 	background-color: #3BACB6;
 	color: #fff;
-	padding: 3px;
+	padding: 6px;
 	margin-top: 5px;
 	border-radius: 10px;
+}
+aside article figcaption small {
+	font-style: italic;
 }
 aside article .skills h3 {
 	margin-bottom: 8px;
@@ -405,6 +411,7 @@ footer svg {
 	color: #fff;
 }
 
+/* ===================================================================== */
 
 /* Responsive Breakpoint */
 @media screen and (max-width: 985px) {
